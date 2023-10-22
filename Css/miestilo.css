@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2? family= Belanosima:wght@400;600;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Belanosima:wght@400;600;700 & family= Potta+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Belanosima', sans-serif;
+}
+.contenedor-header-nav{
+    background-color:#280B37 ;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content:space-between;
+    padding: 60px;
+    color: rgb(228, 236, 243);
+}
+
+.logo-nav{
+    height: 100px;
+    width: 100px;
+    
+}
+header nav a{
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    padding: 5px 40px;
+    transition: .5s;
+    border-radius: 20px;
+    text-align: center;
+    font-family:'Belanosima', sans-serif;
+}
+header nav a:hover{
+    background-color:#4EDF81 ;
+    color:darkred;
+}
+.conteiner-bienvenidos{
+    background-color:#fadab1 ;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    font-family:Rubik Spray Paint;
+}
+
+.carousel {
+    justify-content:center;
+    margin-left: 1%;
+}
+.d-block{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+
+}
+.carrousel{
+    margin-top: auto;
+    margin-left: auto;
+    background: #F9B400;
+}
+.texto-carusel{
+    display: flex;
+    justify-content: left;
+    font-family:Rubik Spray Paint ;
+    font-size: 50px;
+    text-align: left;
+    color: #280b37;
+    
+}
+
+.conteiner-servicios {
+    display: flex;
+    padding: 1%;
+    flex-direction:column;
+    align-items: center;
+    background-color:#fadab1;
+    font-size: Poota One;
+    font-size:22px;
+}
+
+.titulo-servicios {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.descripcion-servicios {
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+}
+.row{
+    background-color:#280B37;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 2%;
+    display: flex;
+    width: 100%;
+    height: 200%;
+}
+.servicios-btn{
+    border: 0;
+    background:#461161;
+    border-radius: 8px;
+    color:#fadab1;
+    display: flex;
+    font-size: 16px;
+    padding: 8px;
+    cursor:pointer;
+    transition: .3s;
+}
+
+.container-fluid{
+    background: #F9B400;
+    height:200% 200%;
+    width: 100%;
+}
+.card{
+    background: #881f7d; 
+    color: white; 
+    text-align: justify;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 2px;
+    align-items: center;
+}
+.card-icono{
+    width: 35%;
+    height: 35%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:4px;
+    margin-right: 4px;
+    padding: 2px;
+    border-radius:0rex;
+}
+.card.title{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-text{
+    font-family:'Times New Roman', Times, serif;
+    font-size:19px;
+    justify-items: center;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.opciones-btn{
+    background: #F9B400;
+    font-size: 26px;
+    padding: 8px;
+    cursor:pointer;
+    transition: .3s;
+    border-radius:5px;
+    font-family: Poota One;
+    color:#000;
+
+}
+.conteiner-contacto{
+    background: #fadab1 ;
+}
+.row-contacto{
+    background: #fadab1;
+
+}
+
+.formulario-contacto {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+form{
+	width:600px;
+	padding:16px;
+    height: auto;
+	border-radius:10px;
+	margin:auto;
+	background-color:#F9B400;
+    color: #280b37;
+    font-size: 22px;
+}
+
+form label{
+	width:130px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #280b37;
+	border-radius:3px;
+	background-color:#fadab1;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#F9B400;
+	background-color:#461161;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+.footer{
+    background: #fadab1;
+    background-color: white; 
+    margin: 20px 100px 0px 100px;
+    font-size: large;
+    
+}
